@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B8B8B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+form#form{
+    background-color: white;
+    width: 370px;
+    height: 370px;
+    padding: 30px;
+}
+form#form input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+}
+form#form button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #0E5B47;
+    background-color: #0E5B47;
+    color: white;
+    font-weight: bold;
+}
+div#container1{
+    background-color: white;
+    width: 370px;
+    height: 370px;
+    text-align: center;
+    padding-top: 30px;
+}
+div#container1 h2{
+    padding: 20px;
+}
+div#container1 img{
+    padding-bottom: 20px;
+}
+div#container1 button{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #0E5B47;
+    border-radius: 10px;
+    color: #0E5B47;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+div#container1 button:hover{
+    transform: scale(1.1);
+}
+div#container1 .numeros-soteados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin-top: 20px;
+    flex-direction: row;
+}
+div#container1 .numeros-soteados  div{
+    background-color: #0E5B47;
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#container1 .voceGanhou{
+    padding: 20px;
+    color: #0E5B47;
+}
+div#container1 .vocePerdeu{
+    padding: 20px;
+    color: red;
+}
